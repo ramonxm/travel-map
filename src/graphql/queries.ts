@@ -8,6 +8,7 @@ export const getPages = gql`
       slug
       body {
         html
+        text
       }
     }
   }
@@ -21,6 +22,7 @@ export const getPagesBySlug = gql`
       heading
       body {
         html
+        text
       }
     }
   }
@@ -38,6 +40,7 @@ export const getPlaces = gql`
       }
       description {
         html
+        text
       }
       gallery {
         url
@@ -60,6 +63,7 @@ export const getPlaceBySlug = gql`
       }
       description {
         html
+        text
       }
       gallery {
         url

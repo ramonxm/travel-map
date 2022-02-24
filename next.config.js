@@ -10,5 +10,8 @@ module.exports = withPWA({
 })
 
 module.exports = {
-  reactStrictMode: true
+  reactStrictMode: true,
+  images: {
+    domains: ['media.graphcms.com']
+  }
 }
